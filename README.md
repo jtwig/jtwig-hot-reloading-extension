@@ -19,7 +19,7 @@ EnvironmentConfiguration configuration = EnvironmentConfigurationBuilder
 - If the referenced resource is a file, it then checks for the last modified date and depending on such date, this may evict the cached template.
 
 
-**Integration with Spring Boot*
+**Integration with Spring Boot**
 
 Note that, jtwig-spring-boot-started module, by default, sets the template source as the classpath, which makes file editing dificult given the fact that classpath resources are bundled inside the JAR files. For this to work, an easy solution can be to use templates stored in a specific directory, as shown in the example below:
 

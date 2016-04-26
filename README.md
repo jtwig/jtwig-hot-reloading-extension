@@ -3,6 +3,7 @@
 **How to use?**
 
 - Include the dependency in your project (check [bintray](https://bintray.com/jtwig/maven/jtwig-hot-reloading-extension/_latestVersion)).
+- Add to your custom Jtwig configuration
 
 ```java
 EnvironmentConfiguration configuration = EnvironmentConfigurationBuilder

@@ -21,7 +21,8 @@ EnvironmentConfiguration configuration = EnvironmentConfigurationBuilder
 
 **Integration with Spring Boot**
 
-Note that, jtwig-spring-boot-started module, by default, sets the template source as the classpath, which makes file editing dificult given the fact that classpath resources are bundled inside the JAR package. For this to work, an easy solution can be to use templates stored in a specific directory, as shown in the example below:
+Note that, jtwig-spring-boot-started module, by default, sets the template source as the classpath, bundling such application inside a standalone jar makes it impossible to edit such template files. 
+For this to work, an easy solution can be to use templates stored in a specific directory, as shown in the example below:
 
 ```java
 @Configuration

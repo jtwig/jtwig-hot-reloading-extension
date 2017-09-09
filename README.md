@@ -41,7 +41,7 @@ public class JtwigConfig implements JtwigViewResolverConfigurer {
 **Build Stats**
 
 [![Build Status](https://travis-ci.org/jtwig/jtwig-hot-reloading-extension.svg?branch=master)](https://travis-ci.org/jtwig/jtwig-hot-reloading-extension)
-[![Coverage Status](https://coveralls.io/repos/github/jtwig/jtwig-hot-reloading-extension/badge.svg?branch=master)](https://coveralls.io/github/jtwig/jtwig-hot-reloading-extension?branch=master)
+[![codecov](https://codecov.io/gh/jtwig/jtwig-hot-reloading-extension/branch/master/graph/badge.svg)](https://codecov.io/gh/jtwig/jtwig-hot-reloading-extension)
 [![Download](https://api.bintray.com/packages/jtwig/maven/jtwig-hot-reloading-extension/images/download.svg) ](https://bintray.com/jtwig/maven/jtwig-hot-reloading-extension/_latestVersion)
 
 **Licensing**

@@ -4,10 +4,8 @@
 
 # Gradle
 .gradle
-gradlew
-gradlew.bat
-gradle/wrapper
 build/
 
 # Maven
 pom.xml
+target/
